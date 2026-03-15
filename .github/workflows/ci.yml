@@ -28,4 +28,4 @@ jobs:
 
       - name: Verify app imports
         run: |
-          python -c "from app.amin import app; print(app.title)"
+          python -c "from app.main import app; print(app.title)"
